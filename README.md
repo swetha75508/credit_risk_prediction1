@@ -1,19 +1,22 @@
 # 🏦 Credit Risk Prediction
+A Machine Learning web application built using Python, Scikit-learn, and Streamlit to predict whether a loan applicant is a Low Credit Risk or High Credit Risk based on demographic, financial, and loan-related information.
 
-📌 Project Overview
-The Credit Risk Prediction project is a machine learning application that predicts whether a loan applicant is likely to be a Low Credit Risk or High Credit Risk based on their financial and personal information.Built using Python, Scikit-learn, and Streamlit providing interactive web interface where user can enter applicant details and receive instant credit risk predictions.
+---
+## 📌 Project Overview
+This application predicts the credit risk of loan applicants using Machine Learning. It helps financial institutions assess the likelihood of loan default by analyzing applicant information such as age, income, home ownership, employment length, loan purpose, loan amount, interest rate, previous loan default history, and credit history length.
 
-
-📊 Features
-- Interactive web application using Streamlit
-- predicts applicants credit risk
-- Accepts multiple applicant and loan-related inputs
-- Display prediction result (Low Risk or High Risk)
-- Integrated Preprocessing and prediction pipeline
-- shows prediction confidence using probability
+---
+## 🚀 Features
+- Predict applicant credit risk instantly
+- Interactive Streamlit web application
+- Displays Low Credit Risk or High Credit Risk
+- Shows prediction probability
+- Integrated preprocessing and prediction pipeline
+- Simple and user-friendly interface
 - Real-time credit risk prediction
 
-🛠️ Technologies Used
+---
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -21,39 +24,44 @@ The Credit Risk Prediction project is a machine learning application that predic
 - Streamlit
 - Joblib
 
-🤖 Machine Learning Models
-
-The following classification models were evaluated:
-
+---
+## 🤖 Machine Learning Models
 - Logistic Regression
-- KNeighbors Classifier
 - Decision Tree Classifier ✅ (Final Model)
-
-📊 Model Performance
-
-| Model | Accuracy | Notes |
-| --- | --- | --- |
-| Logistic Regression | 77% | Baseline model |
-| KNeighbors Classifier | 82% | Lower accuracy, sensitive to k |
-| Decision Tree Classifier ✅ | **84%** | Best performance, final model |
+- KNeighbors Classifier
 
 The Decision Tree Classifier achieved the best performance and was selected for deployment.
 
-📂 Project Structure
+---
+## 📂 Project Structure
+```text
+## 📂 Project Structure
 
+```text
 Credit_Risk_ML_Project/
 │
-├── app.py                   
-├── credit_risk_model.pkl    
-├── requirements.txt        
-├── Credit_Risk_Dataset.csv  
-├── Credit Risk Prediction.ipynb 
-├── README.md                  
-└── .gitignore                
+├── app.py
+├── credit_risk_model.pkl
+├── credit_risk.csv
+├── Credit_Risk_Prediction.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
-
-▶️ Run the Project
-
-pip install -r requirements.txt
-
+---
+## ▶️ Run the Project
+```bash
+pip install requirements.txt
 streamlit run app.py
+```
+
+---
+## 👩‍💻 Developer
+Shweta Rani
+
+- LinkedIn:
+- GitHub
+- HuggingFace:
+
+
