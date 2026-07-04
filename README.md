@@ -42,21 +42,13 @@ The Decision Tree Classifier achieved the best performance and was selected for 
 📂 Project Structure
 
 Credit_Risk_ML_Project/
-
 │
-
 ├── app.py
-
 ├── credit_risk_model.pkl
-
 ├── requirements.txt
-
 ├── Credit_Risk_Dataset.csv
-
 ├── Credit Risk Prediction.ipynb
-
 ├── README.md
-
 └── .gitignore
 
 
