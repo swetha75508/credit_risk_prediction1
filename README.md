@@ -43,15 +43,17 @@ The Decision Tree Classifier achieved the best performance and was selected for 
 
 Credit_Risk_ML_Project/
 │
-├── app.py
-├── credit_risk_model.pkl
-├── requirements.txt
-├── Credit_Risk_Dataset.csv
-├── Credit Risk Prediction.ipynb
-├── README.md
-└── .gitignore
+├── app.py                   
+├── credit_risk_model.pkl    
+├── requirements.txt        
+├── Credit_Risk_Dataset.csv  
+├── Credit Risk Prediction.ipynb 
+├── README.md                  
+└── .gitignore                
 
 
 ▶️ Run the Project
+
 pip install -r requirements.txt
+
 streamlit run app.py
