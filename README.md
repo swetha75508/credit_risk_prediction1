@@ -25,9 +25,9 @@ The Credit Risk Prediction project is a machine learning application that predic
 
 The following classification models were evaluated:
 
-Logistic Regression
-KNeighbors Classifier
-Decision Tree Classifier ✅ (Final Model)
+- Logistic Regression
+- KNeighbors Classifier
+- Decision Tree Classifier ✅ (Final Model)
 
 📊 Model Performance
 
@@ -38,3 +38,19 @@ Decision Tree Classifier ✅ (Final Model)
 | Decision Tree Classifier ✅ | **84%** | Best performance, final model |
 
 The Decision Tree Classifier achieved the best performance and was selected for deployment.
+
+📂 Project Structure
+Credit_Risk_ML_Project/
+│
+├── app.py
+├── credit_risk_model.pkl
+├── requirements.txt
+├── Credit_Risk_Dataset.csv
+├── Credit Risk Prediction.ipynb
+├── README.md
+└── .gitignore
+
+
+▶️ Run the Project
+pip install -r requirements.txt
+streamlit run app.py
