@@ -20,3 +20,19 @@ The Credit Risk Prediction project is a machine learning application that predic
 - Scikit-learn
 - Streamlit
 - Joblib
+
+🤖 Machine Learning Models
+
+The following classification models were evaluated:
+
+Logistic Regression
+Decision Tree Classifier ✅ (Final Model)
+KNeighbors Classifier
+
+The Decision Tree Classifier achieved the best performance and accuracy (84%) and was selected for deployment.
+
+| Model | Accuracy | Notes |
+| --- | --- | --- |
+| Logistic Regression | 78% | Baseline model |
+| KNeighbors Classifier | 74% | Lower accuracy, sensitive to k |
+| Decision Tree Classifier ✅ | **84%** | Best performance, final model |
