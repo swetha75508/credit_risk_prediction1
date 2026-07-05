@@ -60,7 +60,7 @@ streamlit run app.py
 ## 👩‍💻 Developer
 Shweta Rani
 
-- LinkedIn: 
+- LinkedIn: https://www.linkedin.com/in/shweta-rani-13598636a/
 - HuggingFace: https://huggingface.co/spaces/shweta117/credit_risk_proj1
 
 
