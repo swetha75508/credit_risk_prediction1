@@ -60,8 +60,8 @@ streamlit run app.py
 ## 👩‍💻 Developer
 Shweta Rani
 
-- LinkedIn:
-- GitHub
-- HuggingFace:
+- LinkedIn: 
+- GitHub:
+- HuggingFace: [https://huggingface.co/spaces/shweta117/credit_risk_proj1]
 
 
