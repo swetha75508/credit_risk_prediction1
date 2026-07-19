@@ -34,10 +34,7 @@ The Decision Tree Classifier achieved the best performance and was selected for 
 
 ---
 ## 📂 Project Structure
-```text
-## 📂 Project Structure
-
-```text
+```
 Credit_Risk_ML_Project/
 │
 ├── app.py
